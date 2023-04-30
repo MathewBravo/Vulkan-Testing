@@ -17,6 +17,7 @@ int main() {
 		glfwPollEvents(); 
 	}
 
+	vulkanRenderer->vulkanCleanUp(); 
 	window->terminateAndDestroyWindow(); 
 	return 0;
 }
